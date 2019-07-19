@@ -8,6 +8,24 @@ div {
     box-sizing: border-box;
     
 }
+a {
+    color: #438dbe;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #438dbe;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #438dbe;
+}
+
+a:active {
+    color:rgb(100, 196, 97);
+    text-decoration: none;
+}
 
 #bar {
     padding: 0;
@@ -165,3 +183,15 @@ div {
     font-weight: normal;
     font-style: italic;
 }
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+@media only screen and (min-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+    }
